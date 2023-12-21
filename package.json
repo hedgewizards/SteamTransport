@@ -1,0 +1,16 @@
+{
+  "name": "com.tomweiland.steamtransport",
+  "version": "0.1.0",
+  "displayName": "Riptide Steam Transport",
+  "description": "A Steam transport Unity Package for RiptideNetworking + Steamworks.NET.",
+  "Unity": "2021.2",
+  "author": {
+    "name": "Drew",
+    "url": "https://twitter.com/weekendwizardry"
+  },
+  "type": "library",
+  "dependencies": {
+    "com.rlabrecque.steamworks.net": "https://github.com/rlabrecque/Steamworks.NET.git",
+    "net.tomweiland.riptide": "https://github.com/RiptideNetworking/Riptide.git?path=/Packages/Core#2.0.0"
+  }
+}
