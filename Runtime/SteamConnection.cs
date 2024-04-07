@@ -2,6 +2,7 @@
 // Copyright (c) Tom Weiland
 // For additional information please see the included LICENSE.md file or view it on GitHub:
 // https://github.com/tom-weiland/RiptideSteamTransport/blob/main/LICENSE.md
+#if !DISABLESTEAMWORKS
 
 using Steamworks;
 using System;
@@ -70,3 +71,5 @@ namespace Riptide.Transports.Steam
         public static bool operator !=(SteamConnection left, SteamConnection right) => !(left == right);
     }
 }
+
+#endif

@@ -2,7 +2,7 @@
 // Copyright (c) Tom Weiland
 // For additional information please see the included LICENSE.md file or view it on GitHub:
 // https://github.com/tom-weiland/RiptideSteamTransport/blob/main/LICENSE.md
-
+#if !DISABLESTEAMWORKS
 using Steamworks;
 using System;
 using System.Collections.Generic;
@@ -158,3 +158,4 @@ namespace Riptide.Transports.Steam
         }
     }
 }
+#endif
